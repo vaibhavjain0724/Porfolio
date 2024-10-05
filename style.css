@@ -1,0 +1,26 @@
+/* GENERAL */
+
+
+/*Google font import link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+
+*{
+    /*to avoid useless margin and padding*/
+    margin: 0; 
+    padding: 0;
+}
+
+
+
+body{
+      font-family: "Poppins", sans-serif;
+}
+
+html{
+    /*when we click on links in nav bar, this tag will ensure 
+    we dont directly jump to them but instead we smoothly
+     scroll over to them*/
+    scroll-behavior: smooth;
+}
